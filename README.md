@@ -6,6 +6,16 @@
 #### An open-source Point of Sale for [Erpnext](https://github.com/frappe/erpnext) using [Vue.js](https://github.com/vuejs/vue) and [Vuetify](https://github.com/vuetifyjs/vuetify) (VERSION 15 Support)
 
 ---
+### Update Instructions
+
+After switching branches or pulling latest changes:
+
+1. cd apps/posawesome
+2. git pull
+3. yarn install
+4. cd ../..
+5. bench build --app posawesome
+6. bench --site your.site migrate
 
 ### Main Features
 
